@@ -1,0 +1,1 @@
+console.log("firstFile Ok"),console.log("secondFile Ok");
