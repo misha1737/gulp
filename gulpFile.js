@@ -24,11 +24,6 @@ function styles(){
 .pipe(gulp.dest('./build/css/'))
      .pipe(browserSync.stream())
 }
-function sassCompile(){
-
-
-}
-
 
 function scripts(){
 	    return gulp.src('./src/js/*.js')
@@ -51,7 +46,6 @@ browserSync.init({
 
 gulp.task('styles', styles);
 gulp.task('scripts', scripts);
-gulp.task('sassCompile', sassCompile);
 gulp.task('watch', watch);
 gulp.task('build',gulp.series(gulp.parallel(styles,scripts)))
-gulp.task('dev', gulp.series('build','watch'));
+gulp.task('default', gulp.series('build','watch'));
