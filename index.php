@@ -10,6 +10,7 @@
 	<div class="baner">
 		<p>банер текст</p>
 	</div>
+	<h3><?php echo 'php Code 2131 3 ok'?></h3>
 	<ul>
 		<li>Список 1</li>
 		<li>Список 2</li>
