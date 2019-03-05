@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link href="src/css/index.css" rel="stylesheet">
+	<link href="build/scss/index.css" rel="stylesheet">
 </head>
 <body>
 	<h1>Заголовок</h1>

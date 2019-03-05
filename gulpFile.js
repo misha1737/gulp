@@ -21,7 +21,7 @@ function styles(){
 .pipe(cleanCSS())
 //.pipe(cssnano())
 .pipe(sourcemaps.write())
-.pipe(gulp.dest('./src/css/'))
+.pipe(gulp.dest('./build/css/'))
      .pipe(browserSync.stream())
 }
 function sassCompile(){
